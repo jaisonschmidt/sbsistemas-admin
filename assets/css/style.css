@@ -44,6 +44,7 @@ body {
   border: 1px #000000 solid;
   border-radius: 0.5rem;
   margin: 1rem;
+  max-width: 500px;
   padding: 1rem;
 }
 
@@ -61,4 +62,23 @@ body {
   margin-top: 0.2rem;
   padding: 0.8rem;
   width: 100%;
+}
+
+@media (min-width: 900px) {
+  .admin__wrapper {
+    flex-direction: row;
+  }
+
+  .header__main {
+    align-items: center;
+    display: flex;
+  }
+
+  .main__wrapper {
+    align-items: center;
+  }
+
+  .form-login__wrapper {
+    width: 600px;
+  }
 }
